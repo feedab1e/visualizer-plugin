@@ -1,0 +1,9 @@
+[submodule "external/cmrc"]
+	path = external/cmrc
+	url = git@github.com:vector-of-bool/cmrc.git
+[submodule "external/boost"]
+	path = external/boost
+	url = git@github.com:boostorg/boost.git
+[submodule "external/glfw"]
+	path = external/glfw
+	url = git@github.com:glfw/glfw.git

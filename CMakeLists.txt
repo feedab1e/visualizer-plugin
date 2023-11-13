@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.25)
+project(visualizer-plugin)
+
+find_package(GLEW REQUIRED)
+add_subdirectory(external/boost)
+add_subdirectory(external/glfw)
+add_subdirectory(external/cmrc)
+add_subdirectory(abstraction)
+add_subdirectory(library)
+add_subdirectory(test)
